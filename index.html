@@ -419,6 +419,14 @@
       text-align: center;
     }
 
+    .tiless {
+      display: flex;
+      width: 1000px;
+      height: 750px;
+      filter: drop-shadow(0 14px 24px rgba(140, 110, 140, 0.35));
+      transition: filter 0.3s;
+    }
+
     @media (max-width: 1100px) {
       .tiles {
         width: 90%;
@@ -482,6 +490,37 @@
         font-size: 1rem;
       }
     }
+    
+    
+    @media (max-width: 990px) {
+      .tiless {
+        width: 20%;
+        max-width: 720px;
+        height: 450px;
+      }
+    }
+
+    @media (max-width: 675px) {
+      .tiless {
+        width: 30%;
+        max-width: 450px;
+        height: 320px;
+      }
+      .tiles-content {
+        font-size: 1.8rem;
+      }
+      .tiles-content small {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 450px) {
+      .tiless {
+        height: 275px;
+      }
+    }
+ 
+
   </style>
 </head>
 <body>
@@ -612,7 +651,6 @@
       <div class="block-intro">
         📖 <strong>小说部</strong>：21世纪10年代以来，由于互相改编的作品载体类型的扩展，ACG一词也有涵盖其他御宅族所喜爱的领域的趋势，比如轻小说。也有将轻小说（Light Novels）以缩写“N”添加到ACG中而诞生的新缩写词“ACGN”，主要在华人的ACG文化圈里使用。
       </div>
-      </div>
     </div>
     
     <hr class="divider-line">
@@ -636,6 +674,23 @@
       </p>
     </div>
 
+
+     <div class="section-block block-right">
+      <div class="block-header">
+        <h2 class="block-title">五十岚娘！！！</h2>
+      </div>
+      <div class="tiless-wrapper">
+        <div class="tiless">
+          <a href="https://img.hyql.dpdns.org/img/五十岚娘1.jpg" target="_blank" rel="noopener" class="tile" style="background-image: url('https://img.hyql.dpdns.org/img/五十岚娘1.jpg');">
+          
+          </a>
+          <a href="https://img.hyql.dpdns.org/img/五十岚娘2.jpg" target="_blank" rel="noopener" class="tile" style="background-image: url('https://img.hyql.dpdns.org/img/五十岚娘2.jpg');">
+            
+          </a>
+        </div>
+      </div>
+      </div>
+
     <hr class="divider-line">
 
     <div class="timeline-section">
@@ -653,7 +708,7 @@
           <div class="timeline-dot"></div>
           <div class="timeline-content"><span class="timeline-date"> 教学环节 </span> 你可以学到干货,自由选择学日语还是绘画</div>
         </div>
-      </div>
+      </div>  
     </div>
     
     <hr class="divider-line">
